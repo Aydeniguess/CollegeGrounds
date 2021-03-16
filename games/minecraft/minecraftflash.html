@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Minecraft Flash - Game Vault</title>
+    </head>
+  <body>
+    <h1>Minecraft Flash Edition</h1>
+    <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("Play-minecraft-flash.swf");
+    });
+</script>
+<script src="/ruffle/ruffle.js"></script>
+    
+    </body>
+
+</html>
