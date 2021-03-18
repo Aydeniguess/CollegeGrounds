@@ -1,5 +1,3 @@
-# I SWEAR TO GOD AYDEN WHY JUST WHY
-
 # Schoolgrounds
 You know Newgrounds but it works at school, BOOM Schoolgrounds
 # https://decotron99.github.io/Schoolgrounds/index.html
