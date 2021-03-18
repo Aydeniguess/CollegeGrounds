@@ -1,6 +1,5 @@
 # Schoolgrounds
-I am making this because I want to play GAMES!!!!!!
-
+You know Newgrounds but it works at school, BOOM Schoolgrounds
 # https://decotron99.github.io/Schoolgrounds/index.html
 
 
