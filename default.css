@@ -10,4 +10,15 @@ src: url("fonts/vt323-regular-webfont.woff") format("woff"),
  
  
 }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a {
+ text-align:center;
+ 
+ 
+}
 
