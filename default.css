@@ -1,8 +1,8 @@
 
 @font-face {
 font-family: "pixel";
-src: url("fonts/vt323-regular-webfont.woff2") format("woff2"),
-src: url("fonts/vt323-regular-webfont.woff") format("woff"),
+src: url("fonts/minecraft-webfont.woff2") format("woff2"),
+src: url("fonts/minecraft-webfont.woff") format("woff"),
 }
 
 .pixel {
