@@ -6,18 +6,18 @@ src: url("fonts/vt323-regular-webfont.woff") format("woff"),
 }
 
 .pixel {
- font-family:'pixel',;
+ font-family:'pixel';
  
  
 }
 a:link {
-  text-decoration: none;
+  text-decoration: none
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline
 }
 a {
- text-align:center;
+ text-align:center
  
  
 }
