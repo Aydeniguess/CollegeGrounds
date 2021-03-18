@@ -1,13 +1,12 @@
 # Schoolgrounds
+## By Students For Students
 You like newgrounds?
 
 You like flash and HTML games
 
 You hate school?
 
-Put em all together and 
-# BOOM 
-you got schoolgrounds
+Put em all together and BOOM you got schoolgrounds
 # https://decotron99.github.io/Schoolgrounds/index.html
 
 # Info
