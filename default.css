@@ -6,7 +6,15 @@ a {
 }
 
 .pixel {
- font-family:Monaco;
+ font-family:'pixel',  Arial, sans-serif;
  
  
+}
+
+
+
+@font-face {
+font-family: "pixel";
+src: url("vt323-regular-webfont.woff2") format("woff2"),
+src: url("vt323-regular-webfont.woff") format("woff"),
 }
