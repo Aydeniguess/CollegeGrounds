@@ -1,5 +1,13 @@
 # Schoolgrounds
-You know Newgrounds but it works at school, BOOM Schoolgrounds
+You like newgrounds?
+
+You like flash and HTML games
+
+You hate school?
+
+Put em all together and 
+# BOOM 
+you got schoolgrounds
 # https://decotron99.github.io/Schoolgrounds/index.html
 
 # Info
