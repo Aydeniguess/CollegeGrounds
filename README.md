@@ -8,8 +8,8 @@ Sadly not all of the flash games will run properly right now hopefully that will
 
 # Stuff I am using
 
-github.com
-ruffle.rs
+https://github.com <br>
+https://ruffle.rs
 
 # Check this mans out:
 https://github.com/pisauser
