@@ -4,16 +4,16 @@ body {
 
 .comic {
  font-family:Cursive;
- font-color:magenta
+ color:magenta;
  
 }
 .pixel {
  font-family:'pixel';
- font-color:black
+ color:black;
  
 }
 .sad {
-font-color:red
+color:red;
  
 }
 a:link {
