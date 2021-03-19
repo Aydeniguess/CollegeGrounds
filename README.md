@@ -1,6 +1,6 @@
 # Schoolgrounds
 ## By Students For Students
-You like newgrounds?
+You like https://newgrounds.com
 
 You like flash and HTML games
 
