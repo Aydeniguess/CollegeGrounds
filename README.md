@@ -18,8 +18,12 @@ Sadly not all of the flash games will run properly right now hopefully that will
 https://github.com <br>
 https://ruffle.rs
 
-# Check this mans out:
-https://github.com/pisauser
+# Check these mans out:
+https://github.com/PiSauser
+https://github.com/Aydeniguess
+https://github.com/Decotron99
+
+
 
 
 
