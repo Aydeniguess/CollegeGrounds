@@ -22,11 +22,6 @@ a:link {
 a:hover {
   text-decoration: underline
 }
-a {
- text-align:center
- 
- 
-}
 @font-face {
 font-family: "pixel";
 src: url("fonts/minecraft-webfont.woff2");
