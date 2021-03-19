@@ -3,10 +3,18 @@ body {
  
  
 }
-
+.comic {
+ font-family:Comic Sans;
+ 
+ 
+}
 .pixel {
  font-family:'pixel';
  
+ 
+}
+.sad {
+font-color:red; 
  
 }
 a:link {
