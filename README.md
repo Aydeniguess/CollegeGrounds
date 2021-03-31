@@ -1,29 +1,28 @@
 # Schoolgrounds
 ## By Students For Students
-You like https://newgrounds.com
+You like [https://newgrounds.com](https://newgrounds.com)
 
 You like flash and HTML games
 
-You hate school?
+Do you hate school?
 
-Put em all together and BOOM you got schoolgrounds
-# https://decotron99.github.io/Schoolgrounds/index.html
+Put 'em all together, and BOOM you got schoolgrounds
+
+# https://decotron99.github.io/Schoolgrounds/
 
 # Info
-Sadly not all of the flash games will run properly right now hopefully that will get fixed but until then they will glitch a lot :(
-
+Sadly not all of the flash games will run properly right now hopefully that will get fixed, but until, then they will glitch a lot :(
 
 # Stuff I am using
-
-https://github.com <br>
-https://ruffle.rs
+- [https://github.com](https://github.com) 
+- [https://ruffle.rs](https://ruffle.rs)
 
 # Check these mans out:
-https://github.com/PiSauser <br>
-https://github.com/Aydeniguess <br>
-https://github.com/Decotron99 <br>
+- [https://github.com/PiSauser](https://github.com/PiSauser)
+- [https://github.com/Aydeniguess](https://github.com/Aydeniguess)
+- [https://github.com/Decotron99](https://github.com/Decotron99)
 
-
+```txt
 
 
 
@@ -55,3 +54,4 @@ https://github.com/Decotron99 <br>
 
 
 monke
+```
