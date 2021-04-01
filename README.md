@@ -8,7 +8,7 @@ Do you hate school?
 
 Put 'em all together, and BOOM you got schoolgrounds
 
-# https://ayducc-games.github.io/Schoolgrounds/
+# https://schoolgroundshtml.tk/
 
 # Info
 Sadly not all of the flash games will run properly right now hopefully that will get fixed, but until, then they will glitch a lot :(
@@ -21,6 +21,7 @@ Sadly not all of the flash games will run properly right now hopefully that will
 - [https://github.com/PiSauser](https://github.com/PiSauser)
 - [https://github.com/Aydeniguess](https://github.com/Aydeniguess)
 - [https://github.com/Decotron99](https://github.com/Decotron99)
+- [https://github.com/yeetedmeme](https://github.com/yeetedmeme)
 
 ```txt
 
