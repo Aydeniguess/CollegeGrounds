@@ -1,10 +1,10 @@
 # Schoolgrounds
 ## By Students For Students
-You like [https://newgrounds.com](https://newgrounds.com)
+You like [https://newgrounds.com](https://newgrounds.com) and [pisaucer.github.io/boredhtml](https://pisaucer.github.io)
 
 You like flash and HTML games
 
-Do you hate school?
+Do you HATE school?
 
 Put 'em all together, and BOOM you got schoolgrounds
 
