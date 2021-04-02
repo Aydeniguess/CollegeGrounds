@@ -1,6 +1,6 @@
 # Schoolgrounds
 ## By Students For Students
-You like [https://newgrounds.com](https://newgrounds.com) and [pisaucer.github.io/boredhtml](https://pisaucer.github.io)
+You like [Newgrounds](https://newgrounds.com) and [Bored Html](https://pisaucer.github.io/boredhtml)
 
 You like flash and HTML games
 
