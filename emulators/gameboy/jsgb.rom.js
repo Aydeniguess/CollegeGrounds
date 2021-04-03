@@ -14,7 +14,7 @@
  *
  */
  
-var gbROM = ['pokemon-yellow.zip'];
+var gbROM = [filename];
 var gbCartridgeType = 0;
 var gbBankSwitchCount = 0;
 
@@ -51,7 +51,7 @@ gbRAMBanks[4] = 16;
 
 var gbROMInfo = {};
 
-function gb_ROM_Load('pokemon-yellow.zip') {
+function gb_ROM_Load(filename) {
   gbBankSwitchCount = 0;    
   gbROM = [];
   var i = 0;
