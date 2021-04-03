@@ -14,7 +14,7 @@
  *
  */
  
-var gbROM = [];
+var gbROM = ['pokemon-yellow.zip'];
 var gbCartridgeType = 0;
 var gbBankSwitchCount = 0;
 
