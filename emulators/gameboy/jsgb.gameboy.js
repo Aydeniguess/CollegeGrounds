@@ -44,7 +44,7 @@ function gb_Pause() {
   gb_Dump_All();        
 }
 
-function gb_Insert_Cartridge(fliename, Start) {
+function gb_Insert_Cartridge(filename, Start) {
   gb_Pause();
   gbSeconds = 0;
   gbFrames  = 0;
