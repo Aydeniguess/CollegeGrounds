@@ -14,8 +14,8 @@ const ROM_SIZE = 0x148;
 const CHECKSUM = 0x14e;
 
 const Rom = function() {
-  this._rom = null;
-  this._loaded = false;
+  this._rom = 'pokemon-yellow.gb';
+  this._loaded = true;
 };
 
 Rom.prototype = {
@@ -27,7 +27,7 @@ Rom.prototype = {
    * @param {String} fileName Name of file to load
    * @return {Promise} Promise that's resolved after loading
    */
-  load(fileName) {
+  load('pokemon-yellow.gb') {
     return fetch(`${ROM_DIR}${fileName}.${ROM_EXT}`).then((res) => res.arrayBuffer()).then(this.parseRom.bind(this));
   },
   
