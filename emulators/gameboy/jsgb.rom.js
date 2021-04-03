@@ -51,7 +51,7 @@ gbRAMBanks[4] = 16;
 
 var gbROMInfo = {};
 
-function gb_ROM_Load(fileName) {
+function gb_ROM_Load('pokemon-yellow.zip') {
   gbBankSwitchCount = 0;    
   gbROM = [];
   var i = 0;
