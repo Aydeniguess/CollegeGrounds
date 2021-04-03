@@ -24,8 +24,6 @@ Sadly not all of the flash games will run properly right now hopefully that will
 - [https://github.com/yeetedmeme](https://github.com/yeetedmeme)
 
 
-### Donate:
-https://paypal.me/ayduccgames?locale.x=en_US
 ```txt
 
 
