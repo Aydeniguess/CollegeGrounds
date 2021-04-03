@@ -44,7 +44,7 @@ function gb_Pause() {
   gb_Dump_All();        
 }
 
-function gb_Insert_Cartridge('pokemon-yellow.zip', Start) {
+function gb_Insert_Cartridge('pokemon-yellow.zipgb', Start) {
   gb_Pause();
   gbSeconds = 0;
   gbFrames  = 0;
