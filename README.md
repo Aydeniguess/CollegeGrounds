@@ -1,6 +1,6 @@
 # Schoolgrounds
 ## By Students For Students
-You like [Newgrounds](https://newgrounds.com) and [Bored Html](https://pisaucer.github.io/boredhtml)
+You like [Newgrounds](https://newgrounds.com) and [Bored In School Right Now](https://pisaucer.github.io/boredhtml)
 
 You like flash and HTML games
 
@@ -14,14 +14,14 @@ Put 'em all together, and BOOM you got schoolgrounds
 Sadly not all of the flash games will run properly right now hopefully that will get fixed, but until, then they will glitch a lot :(
 
 # Stuff I am using
-- [https://github.com](https://github.com) 
-- [https://ruffle.rs](https://ruffle.rs)
+- [GitHub](https://github.com) 
+- [Ruffle](https://ruffle.rs)
 
 # Check these mans out:
-- [https://github.com/PiSauser](https://github.com/PiSauser)
-- [https://github.com/Aydeniguess](https://github.com/Aydeniguess)
-- [https://github.com/Decotron99](https://github.com/Decotron99)
-- [https://github.com/yeetedmeme](https://github.com/yeetedmeme)
+- [Decotron99](https://github.com/Decotron99)
+- [Aydeniguess](https://github.com/Aydeniguess)
+- [PiSauser](https://github.com/PiSauser)
+- [yeetedmeme](https://github.com/yeetedmeme)
 yeet
 
 ```txt
