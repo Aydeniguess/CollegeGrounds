@@ -13,6 +13,8 @@ Put 'em all together, and BOOM you got schoolgrounds
 - [schoolgroundshtml.tk](https://schoolgroundshtml.tk/)
 - [schoolgrounds.web.app](https://schoolgrounds.web.app/)
 - [schoolgrounds.firebaseapp.com](https://schoolgrounds.firebaseapp.com/)
+- [schoolground.ml](https://schoolground.ml/)
+- [schoolground.tk](https://schoolground.tk/)
 
 # Info
 Sadly not all of the flash games will run properly right now hopefully that will get fixed, but until, then they will glitch a lot :(
