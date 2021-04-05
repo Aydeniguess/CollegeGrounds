@@ -9,8 +9,10 @@ Do you HATE school?
 Put 'em all together, and BOOM you got schoolgrounds
 
 ## Sites
-- https://schoolgrounds.herokuapp.com/
-- https://schoolgroundshtml.tk/
+- [schoolgrounds.herokuapp.com](https://schoolgrounds.herokuapp.com/)
+- [schoolgroundshtml.tk](https://schoolgroundshtml.tk/)
+- [schoolgrounds.web.app](https://schoolgrounds.web.app/)
+- [schoolgrounds.firebaseapp.com](https://schoolgrounds.firebaseapp.com/)
 
 # Info
 Sadly not all of the flash games will run properly right now hopefully that will get fixed, but until, then they will glitch a lot :(
