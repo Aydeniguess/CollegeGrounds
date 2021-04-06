@@ -1,20 +1,4 @@
 /* The navigation bar */
-    canvas {
-      background: #000;
-      margin: 10px;
-    }
-    .actual {
-      width: 256;
-      height: 240;
-    }
-    .double {
-      width: 512;
-      height: 480;
-    }
-    .quadruple {
-      width: 1024;
-      height: 960;
-    }
 .nesCanvas {
     
     display: block;
