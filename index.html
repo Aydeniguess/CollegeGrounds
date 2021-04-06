@@ -44,23 +44,38 @@
 </head>
 
 <body>
-<div class="navbar">
-    <a href="#">Schoolgrounds</a>
-    <div class="dropdown">
-    <button >Games 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="games/index.html">All Games</a>
-      <a href="other/flashgames/">Flash Games</a>
-      <a href="other/arcade/">The Arcade</a>
-      <a href="other/retro/">Retro</a>
-    </div>
-  </div> 
-    <a href="other/gameofweek/">Game Of The Week</a>
-    <a href="other/links/">Links</a>
-    <a href="other/theportal/">The Portal</a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other/link">Links</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Games
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="games/index.html">All Games</a>
+          <a class="dropdown-item" href="other/flashgames/">Flash Games</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="other/arcade">The Arcade</a>
+          <a class="dropdown-item" href="other/retro">Retro Games</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other/theportal">The Portal</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     
     <div class="container">
         <div class="row">
