@@ -108,3 +108,9 @@ embed {
 .search-container {
     margin-right: 50px;
 }
+
+ruffle-embed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
