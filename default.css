@@ -45,7 +45,7 @@
 }
 
 body {
-    background: url("images/background.png");
+    background: url("images/skin-funkin-cardbordtoast.png");
     background-color: #333;
     background-repeat: no-repeat;
     background-size: auto;
@@ -76,6 +76,10 @@ a.home {
     color: red;
 }
 
+.yeeted {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 a:link {
     text-decoration: none
 }
@@ -93,6 +97,8 @@ embed {
     src: url("fonts/minecraft-webfont.woff2");
     src: url("fonts/minecraft-webfont.woff") format("woff"),
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 #gameFinder {
     background-image: url('searchicon.png');
