@@ -54,6 +54,13 @@ h1 {
     color: black;
 }
 
+a.home:visited,
+a.home:active,
+a.home:hover,
+a.home {
+    text-decoration-color: black;
+}
+
 .comic {
     font-family: Cursive;
     color: magenta;
@@ -74,6 +81,10 @@ a:link {
 
 a:hover {
     text-decoration: underline
+}
+
+embed {
+    margin: 0 auto;
 }
 
 @font-face {
