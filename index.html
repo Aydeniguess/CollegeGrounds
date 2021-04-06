@@ -57,20 +57,19 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="other/link">Links</a>
+        <a class="nav-link" href="other/links">Links</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="games/index.html">All Games</a>
-          <a class="dropdown-item" href="other/flashgames/">Flash Games</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="other/arcade">The Arcade</a>
-          <a class="dropdown-item" href="other/retro">Retro Games</a>
-        </div>
-      </li>
+      <div class="btn-group">
+  <button type="button" class="btn btn-danger" href="games/index.html">Games</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="other/flashgames/">Flash Games</a>
+    <a class="dropdown-item" href="other/arcade/">The Arcade</a>
+    <a class="dropdown-item" href="/other/retro">Retro Games</a>
+  </div>
+</div>
       <li class="nav-item">
         <a class="nav-link" href="other/theportal">The Portal</a>
       </li>
