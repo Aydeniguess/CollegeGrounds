@@ -44,74 +44,81 @@
         <a href="../retro/">Retro</a>
     </div>
 
-    <h1 class="home">Schoolgrounds</h1>
-    <h2>By Students For Students</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
 
-    <div class="search-container">
-        <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for Flash Games" title="Type in a game">
-        <script>
-            function gameFinder() {
-                var input, filter, ul, li, a, i, txtValue;
-                input = document.getElementById("gameFinder");
-                filter = input.value.toUpperCase();
-                ul = document.getElementById("Games");
-                li = ul.getElementsByTagName("li");
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    txtValue = a.textContent || a.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        li[i].style.display = "";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-        </script>
+                <h1 class="home">Schoolgrounds</h1>
+                <h2>By Students For Students</h2>
+
+                <div class="search-container">
+                    <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for Flash Games" title="Type in a game">
+                    <script>
+                        function gameFinder() {
+                            var input, filter, ul, li, a, i, txtValue;
+                            input = document.getElementById("gameFinder");
+                            filter = input.value.toUpperCase();
+                            ul = document.getElementById("Games");
+                            li = ul.getElementsByTagName("li");
+                            for (i = 0; i < li.length; i++) {
+                                a = li[i].getElementsByTagName("a")[0];
+                                txtValue = a.textContent || a.innerText;
+                                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                    li[i].style.display = "";
+                                } else {
+                                    li[i].style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+
+                <h2>Flash Games:</h2>
+                <div class="Games" id="Games">
+                    <ul>
+                        <li><a href="../../games/minecraft/" class="comic">Minecraft Flash Edition</a></li>
+                        <li><a href="../../games/btd/">Bloons Tower Defense</a></li>
+                        <li><a class="sad" href="../../games/burrito_bision/">Burrito Bison (Currently Doesn't Work :( )</a></li>
+                        <li><a href="../../games/achievement_unlocked_games/achievementunlocked1/">Achievement Unlocked 1</a></li>
+                        <li><a class="sad" href="../../games/achievement_unlocked_games/achievementunlocked2/">Achievement Unlocked 2 (Currently Doesn't Work :( )</a></li>
+                        <li><a class="sad" href="../../games/achievement_unlocked_games/achievementunlocked3/">Achievement Unlocked 3 (Currently Doesn't Work :( )</a></li>
+                        <li><a href="../../games/tetris/">Tetris</a></li>
+                        <li><a href="../../games/sm63/">Super Mario 63</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleSchool1/">Riddle School 1</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleSchool2/">Riddle School 2</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleSchool3/">Riddle School 3</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleSchool4/">Riddle School 4</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleSchool5/">Riddle School 5</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleTransfer/">Riddle Transfer (a.k.a Riddle School 6)</a></li>
+                        <li><a href="../../games/RiddleSchool/RiddleTransfer2/">Riddle Transfer 2 (a.k.a Riddle School 7)</a></li>
+                        <li><a href="../../games/portalflash/">Portal Flash Version</a></li>
+                        <li><a href="../../games/alienhominid/">Alien Hominid</a></li>
+                        <li><a href="../../games/WorldHardestGame/">The World's Hardest Game</a></li>
+                        <li><a href="../../games/breakingthebank/">Breaking The Bank</a></li>
+                        <li><a href="../../games/linerider/linerider2/">Line Rider 2</a></li>
+                        <li><a href="../../games/bloxors/">Bloxorz</a></li>
+                        <li><a href="../../games/iq/">Impossible Quiz</a></li>
+                        <li><a href="../../games/adg/">Action Driving Game</a></li>
+                        <li><a href="../../games/pacman/">PAC-MAN</a></li>
+                        <li><a href="../../games/winmister/">Windows Mister</a></li>
+                        <li><a href="../../games/super-smash-flash/">Super Smash Flash</a></li>
+                        <li><a href="../../games/galaga/">Galaga</a></li>
+                        <li><a href="../../games/bowman/">Bow Man</a></li>
+                        <li><a href="../../games/xtractpaperclip/">X-Tract Paperclip</a></li>
+                    </ul>
+                </div>
+
+                <p>Huge Thanks To <a href="../people/pisaucer/">PiSaucer</a> (I Stole Your Files from your <a href="http://pisaucer.github.io/boredhtml/" target="_blank">website</a> :) )</p>
+                <footer>
+                    <p>Ayden is not a nice person BELIVE IT</p>
+                    <p>Blam this plz!!!1111!!!</p>
+                    <p>*May Not Work At all schools</p>
+                    <p>I own none of these games this is so students can play stuff unblocked at school :)</p>
+                    <a href="../../other/changelog/">Changelog</a>
+                </footer>
+            </div>
+        </div>
     </div>
-
-    <h2>Flash Games:</h2>
-    <div class="Games" id="Games">
-        <ul>
-            <li><a href="../../games/minecraft/" class="comic">Minecraft Flash Edition</a></li>
-            <li><a href="../../games/btd/">Bloons Tower Defense</a></li>
-            <li><a class="sad" href="../../games/burrito_bision/">Burrito Bison (Currently Doesn't Work :( )</a></li>
-            <li><a href="../../games/achievement unlocked games/achievementunlocked1/">Achievement Unlocked 1</a></li>
-            <li><a class="sad" href="../../games/achievement unlocked games/achievementunlocked2/">Achievement Unlocked 2 (Currently Doesn't Work :( )</a></li>
-            <li><a class="sad" href="../../games/achievement unlocked games/achievementunlocked3/">Achievement Unlocked 3 (Currently Doesn't Work :( )</a></li>
-            <li><a href="../../games/tetris/">Tetris</a></li>
-            <li><a href="../../games/sm63/">Super Mario 63</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleSchool1/">Riddle School 1</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleSchool2/">Riddle School 2</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleSchool3/">Riddle School 3</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleSchool4/">Riddle School 4</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleSchool5/">Riddle School 5</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleTransfer/">Riddle Transfer (a.k.a Riddle School 6)</a></li>
-            <li><a href="../../games/RiddleSchool/RiddleTransfer2/">Riddle Transfer 2 (a.k.a Riddle School 7)</a></li>
-            <li><a href="../../games/portalflash/">Portal Flash Version</a></li>
-            <li><a href="../../games/alienhominid/">Alien Hominid</a></li>
-            <li><a href="../../games/WorldHardestGame/">The World's Hardest Game</a></li>
-            <li><a href="../../games/breakingthebank/">Breaking The Bank</a></li>
-            <li><a href="../../games/linerider/linerider2/">Line Rider 2</a></li>
-            <li><a href="../../games/bloxors/">Bloxorz</a></li>
-            <li><a href="../../games/iq/">Impossible Quiz</a></li>
-            <li><a href="../../games/adg/">Action Driving Game</a></li>
-            <li><a href="../../games/pacman/">PAC-MAN</a></li>
-            <li><a href="../../games/winmister/">Windows Mister</a></li>
-            <li><a href="../../games/super-smash-flash/">Super Smash Flash</a></li>
-            <li><a href="../../games/galaga/">Galaga</a></li>
-            <li><a href="../../games/bowman/">Bow Man</a></li>
-            <li><a href="../../games/xtractpaperclip/">X-Tract Paperclip</a></li>
-        </ul>
-    </div>
-
-    <p>Huge Thanks To <a href="../people/pisaucer/">PiSaucer</a> (I Stole Your Files from your <a href="http://pisaucer.github.io/boredhtml/" target="_blank">website</a> :) )</p>
-    <footer>
-        <p>Ayden is not a nice person BELIVE IT</p>
-        <p>Blam this plz!!!1111!!!</p>
-        <p>*May Not Work At all schools</p>
-        <p>I own none of these games this is so students can play stuff unblocked at school :)</p>
-        <a href="../../other/changelog/">Changelog</a>
-    </footer>
 </body>
 
 </html>

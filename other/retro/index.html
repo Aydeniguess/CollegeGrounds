@@ -45,64 +45,71 @@
         <a href="../retro/">Retro</a>
     </div>
 
-    <a class="home" href="../../">
-        <h1>Schoolgrounds</h1>
-    </a>
-    <h2>By Students For Students</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
 
-    <div class="search-container">
-        <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for Retro Games" title="Type in a game">
-        <script>
-            function gameFinder() {
-                var input, filter, ul, li, a, i, txtValue;
-                input = document.getElementById("gameFinder");
-                filter = input.value.toUpperCase();
-                ul = document.getElementById("Games");
-                li = ul.getElementsByTagName("li");
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    txtValue = a.textContent || a.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        li[i].style.display = "";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-        </script>
+                <a class="home" href="../../">
+                    <h1>Schoolgrounds</h1>
+                </a>
+                <h2>By Students For Students</h2>
+
+                <div class="search-container">
+                    <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for Retro Games" title="Type in a game">
+                    <script>
+                        function gameFinder() {
+                            var input, filter, ul, li, a, i, txtValue;
+                            input = document.getElementById("gameFinder");
+                            filter = input.value.toUpperCase();
+                            ul = document.getElementById("Games");
+                            li = ul.getElementsByTagName("li");
+                            for (i = 0; i < li.length; i++) {
+                                a = li[i].getElementsByTagName("a")[0];
+                                txtValue = a.textContent || a.innerText;
+                                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                    li[i].style.display = "";
+                                } else {
+                                    li[i].style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+
+                <h2 class="pixel">Retro Games</h2>
+                <div class="Games" id="Games">
+                    <h2 class="pixel">DOS Games</h2>
+                    <ul>
+                        <li><a class="pixel" href="../../dosbox/?soft=DOOM">Doom</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=DOOM2">Doom II: Hell on Earth</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=WOLF3D">Wolfenstien 3D Demo</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=OREGON">Oregon Trail</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=DUKE3D">Duke Nukem 3D Demo</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=DAGLITE">The Elder Scrolls: Daggerfall Demo</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=WAR1">Warcraft: Orcs & Humans Demo</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=KQ1">King's Quest</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=MTT">MARIO TEACHES TYPING (lol)</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=DK">Donkey Kong</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=MB">Mario Bros.</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=MGG">Mario Game Gallery</a></li>
+                        <li><a class="pixel" href="../../dosbox/?soft=TTE">Thomas The Tank Engine</a></li>
+                    </ul>
+                    <h2 class="pixel">Emulators</h2>
+                    <ul>
+                        <li><a class="pixel" href="../../emulators/gameboy">Gameboy</a></li>
+                        <li><a class="pixel" href="../../emulators/atari-gameroom/">Atari Gameroom</a></li>
+                        <li><a class="pixel" href="../../emulators/emulatrix/" class="pixel">Emulatrix</a></li>
+                    </ul>
+                </div>
+
+                <p>Huge Thanks To <a href="../people/pisaucer/">PiSaucer</a> (I Stole Your Files from your <a href="http://pisaucer.github.io/boredhtml/" target="_blank">website</a> :) )</p>
+                <footer>
+                    <p>Monke Funny</p>
+                    <p>*May Not Work At all schools</p>
+                </footer>
+            </div>
+        </div>
     </div>
-
-    <h2 class="pixel">Retro Games</h2>
-    <div class="Games" id="Games">
-        <h2 class="pixel">DOS Games</h2>
-        <ul>
-            <li><a class="pixel" href="../../dosbox/?soft=DOOM">Doom</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=DOOM2">Doom II: Hell on Earth</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=WOLF3D">Wolfenstien 3D Demo</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=OREGON">Oregon Trail</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=DUKE3D">Duke Nukem 3D Demo</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=DAGLITE">The Elder Scrolls: Daggerfall Demo</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=WAR1">Warcraft: Orcs & Humans Demo</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=KQ1">King's Quest</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=MTT">MARIO TEACHES TYPING (lol)</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=DK">Donkey Kong</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=MB">Mario Bros.</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=MGG">Mario Game Gallery</a></li>
-            <li><a class="pixel" href="../../dosbox/?soft=TTE">Thomas The Tank Engine</a></li>
-        </ul>
-        <h2 class="pixel">Emulators</h2>
-        <ul>
-            <li><a class="pixel" href="../../emulators/gameboy">Gameboy</a></li>
-            <li><a class="pixel" href="../../emulators/atari-gameroom/">Atari Gameroom</a></li>
-            <li><a class="pixel" href="../../emulators/emulatrix/" class="pixel">Emulatrix</a></li>
-        </ul>
-    </div>
-
-    <p>Huge Thanks To <a href="../people/pisaucer/">PiSaucer</a> (I Stole Your Files from your <a href="http://pisaucer.github.io/boredhtml/" target="_blank">website</a> :) )</p>
-    <footer>
-        <p>Monke Funny</p>
-        <p>*May Not Work At all schools</p>
-    </footer>
 </body>
 
 </html>

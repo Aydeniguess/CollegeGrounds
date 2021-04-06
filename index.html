@@ -44,101 +44,106 @@
         <a href="other/arcade/">The Arcade</a>
         <a href="other/retro/">Retro</a>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#">
+                    <h1 class="home">Schoolgrounds</h1>
+                </a>
+                <h2>By Students For Students</h2>
 
-    <a href="#">
-        <h1 class="home">Schoolgrounds</h1>
-    </a>
-    <h2>By Students For Students</h2>
+                <div class="search-container">
+                    <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for games" title="Type in a game">
+                    <script>
+                        function gameFinder() {
+                            var input, filter, ul, li, a, i, txtValue;
+                            input = document.getElementById("gameFinder");
+                            filter = input.value.toUpperCase();
+                            ul = document.getElementById("Games");
+                            li = ul.getElementsByTagName("li");
+                            for (i = 0; i < li.length; i++) {
+                                a = li[i].getElementsByTagName("a")[0];
+                                txtValue = a.textContent || a.innerText;
+                                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                    li[i].style.display = "";
+                                } else {
+                                    li[i].style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
+                </div>
 
-    <div class="search-container">
-        <input type="text" id="gameFinder" onkeyup="gameFinder()" placeholder="Search for games" title="Type in a game">
-        <script>
-            function gameFinder() {
-                var input, filter, ul, li, a, i, txtValue;
-                input = document.getElementById("gameFinder");
-                filter = input.value.toUpperCase();
-                ul = document.getElementById("Games");
-                li = ul.getElementsByTagName("li");
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    txtValue = a.textContent || a.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        li[i].style.display = "";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-        </script>
+                <h2>Cool News:</h2>
+                <p>Added Proxys and unblocked section, personaly maintained by me. -yeetedmeme</p>
+                <p>Working on a redesign for this website. -Ayden</p>
+                <p>Added a kahoot flooder lol. -Ayden</p>
+                <p>Welp, I guess I helping now -PiSaucer</p>
+
+                <div class="Games" id="Games">
+                    <h2 class="pixel">Game Series:</h2>
+                    <ul>
+                        <li><a href="games/achievement_unlocked_games/">Achievement Unlocked Games</a></li>
+                        <li><a href="games/RiddleSchool/">Riddle School Games</a></li>
+                        <li><a href="games/DuckLife/">Duck Life Games (The Ducc's Favorite Games)</a></li>
+                    </ul>
+
+                    <h2 class="pixel">Schoolgrounds Top 5 Games</h2>
+                    <ol>
+                        <li><a href="games/mari0/" class="pixel">Mari0 - Mario With A Portal Gun</a></li>
+                        <li><a href="games/RiddleSchool/RiddleSchool1/">Riddle School 1</a></li>
+                        <li><a href="games/sm63/">Super Mario 63</a></li>
+                        <li><a href="games/cookieclicker/">Cookie Clicker</a></li>
+                        <li><a href="games/btd/">Bloons Tower Defense</a></li>
+                    </ol>
+
+                    <h2 class="pixel">Brand Spankin' New Games:</h2>
+                    <ul>
+                        <li><a href="games/alienhominid/">Alien Hominid</a></li>
+                        <li><a href="games/WorldHardestGame/">World's Hardest Game</a></li>
+                        <li><a href="games/RiddleSchool/">Riddle School Games</a></li>
+                        <li><a href="games/DuckLife/">Duck Life Games</a></li>
+                        <li><a href="games/bowman/">Bow man</a></li>
+                        <li><a href="games/xtractpaperclip/">X-Tract Paperclip</a></li>
+                    </ul>
+
+
+                    <h2 class="pixel">Other:</h2>
+                    <ul>
+                        <li><a href="games/mari0/" class="pixel">Mari0 - Mario With A Portal Gun</a></li>
+                        <li><a href="games/thereisnogame/" class="pixel">There Is No Game</a></li>
+                        <li><a href="games/2048/">2048</a></li>
+                        <li><a href="games/cookieclicker/">Cookie Clicker</a></li>
+                        <li><a href="games/mcclone1/">Bad Minecraft</a></li>
+                        <li><a href="games/solitude/">Solitude</a></li>
+                        <li><a href="games/minesweeper/">Minesweeper</a></li>
+                    </ul>
+
+                    <h2 class="pixel">Other Unblocked sites:</h2>
+                    <ul>
+                        <li><a href="https://pisaucer.github.io/boredhtml/">BoredHTML</a></li>
+                        <li><a href="https://unblocked-games.s3.amazonaws.com/">Unblocked Games FreezeNova</a></li>
+                        <li><a href="https://coolmathgames.com">Cool Math Games</a></li>
+                        <li><a href="https://sm64js.com">SM64JS</a></li>
+                    </ul>
+                    <h2>People:</h2>
+                    <ul>
+                        <li><a href="other/people/decotron99/" class="pixel">Decotron99</a></li>
+                        <li><a href="https://github.com/Aydeniguess">Aydeniguess</a></li>
+                        <li><a href="other/people/pisaucer/">PiSaucer</a></li>
+                        <li><a href="https://-yeetedmeme.ml">yeetedmeme</a></li>
+                    </ul>
+                </div>
+
+                <footer>
+                    <p>What are you doing stepbro</p>
+                    <p>*May Not Work At all schools</p>
+                    <p>I own none of these games this is so students can play stuff unblocked at school :)</p>
+                    <a href="other/changelog/">Changelog</a>
+                </footer>
+            </div>
+        </div>
     </div>
-
-    <h2>Cool News:</h2>
-    <p>Added Proxys and unblocked section, personaly maintained by me. -yeetedmeme</p>
-    <p>Working on a redesign for this website. -Ayden</p>
-    <p>Added a kahoot flooder lol. -Ayden</p>
-    <p>Welp, I guess I helping now -PiSaucer</p>
-
-    <div class="Games" id="Games">
-        <h2 class="pixel">Game Series':</h2>
-        <ul>
-            <li><a href="games/achievement_unlocked_games/">Achievement Unlocked Games</a></li>
-            <li><a href="games/RiddleSchool/">Riddle School Games</a></li>
-            <li><a href="games/DuckLife/">Duck Life Games (The Ducc's Favorite Games)</a></li>
-        </ul>
-
-        <h2 class="pixel">Schoolgrounds Top 5 Games</h2>
-        <ol>
-            <li><a href="games/mari0/" class="pixel">Mari0 - Mario With A Portal Gun</a></li>
-            <li><a href="games/RiddleSchool/RiddleSchool1/">Riddle School 1</a></li>
-            <li><a href="games/sm63/">Super Mario 63</a></li>
-            <li><a href="games/cookieclicker/">Cookie Clicker</a></li>
-            <li><a href="games/btd/">Bloons Tower Defense</a></li>
-        </ol>
-
-        <h2 class="pixel">Brand Spankin' New Games:</h2>
-        <ul>
-            <li><a href="games/alienhominid/">Alien Hominid</a></li>
-            <li><a href="games/WorldHardestGame/">World's Hardest Game</a></li>
-            <li><a href="games/RiddleSchool/">Riddle School Games</a></li>
-            <li><a href="games/DuckLife/">Duck Life Games</a></li>
-            <li><a href="games/bowman/">Bow man</a></li>
-            <li><a href="games/xtractpaperclip/">X-Tract Paperclip</a></li>
-        </ul>
-
-
-        <h2 class="pixel">Other:</h2>
-        <ul>
-            <li><a href="games/mari0/" class="pixel">Mari0 - Mario With A Portal Gun</a></li>
-            <li><a href="games/thereisnogame/" class="pixel">There Is No Game</a></li>
-            <li><a href="games/2048/">2048</a></li>
-            <li><a href="games/cookieclicker/">Cookie Clicker</a></li>
-            <li><a href="games/mcclone1/">Bad Minecraft</a></li>
-            <li><a href="games/solitude/">Solitude</a></li>
-            <li><a href="games/minesweeper/">Minesweeper</a></li>
-        </ul>
-
-        <h2 class="pixel">Other Unblocked sites:</h2>
-        <ul>
-            <li><a href="https://pisaucer.github.io/boredhtml/">BoredHTML</a></li>
-            <li><a href="https://unblocked-games.s3.amazonaws.com/">Unblocked Games FreezeNova</a></li>
-            <li><a href="https://coolmathgames.com">Cool Math Games</a></li>
-            <li><a href="https://sm64js.com">SM64JS</a></li>
-        </ul>
-        <h2>People:</h2>
-        <ul>
-            <li><a href="other/people/decotron99/" class="pixel">Decotron99</a></li>
-            <li><a href="https://github.com/Aydeniguess">Aydeniguess</a></li>
-            <li><a href="other/people/pisaucer/">PiSaucer</a></li>
-            <li><a href="https://-yeetedmeme.ml">yeetedmeme</a></li>
-        </ul>
-    </div>
-
-    <footer>
-        <p>What are you doing stepbro</p>
-        <p>*May Not Work At all schools</p>
-        <p>I own none of these games this is so students can play stuff unblocked at school :)</p>
-        <a href="other/changelog/">Changelog</a>
-    </footer>
 </body>
 
 </html>
