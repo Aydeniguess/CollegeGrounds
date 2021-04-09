@@ -1,17 +1,19 @@
 /* The navigation bar */
 
-.navbar {
+.nav {
     background-color: #333;
+    /*
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
+    */
 }
 
 
 /* Links inside the navbar */
 
-.navbar a {
+.nav a {
     display: block;
-    color: #f2f2f2;
+    /*color: #f2f2f2;*/
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,10 +23,12 @@
 
 /* Change background on mouse-over */
 
+
+/*
 .navbar a:hover {
     background: #ddd;
     color: black;
-}
+}*/
 
 
 /* Main content */
@@ -131,8 +135,8 @@ ruffle-embed {
     margin-left: auto;
     margin-right: auto;
 }
+
 .nesCanvas {
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
