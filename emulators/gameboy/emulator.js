@@ -25,8 +25,8 @@ function zf(s,l) {while (s.length<l)s='0'+s;return s;}
 
 // Convert decimal to hexadecimal
 function hex(n){return (n*1).toString(16).toUpperCase();}
-function hex2(n) {return zf(hex(n),2);};
-function hex4(n) {return zf(hex(n),4);};
+function hex2(n) {return zf(hex(n),2);}
+function hex4(n) {return zf(hex(n),4);}
 
 // Convert decimal to binary
 function bin(n){return (n*1).toString(2);}
@@ -2669,7 +2669,7 @@ function gb_Mode1() { // V-Blank
   if (gbRegSTAT_IntMode1) MEMW(_IF_,gbRegIF|2); // set IF flag 1
   MEMW(_IF_,gbRegIF|1); // set IF flag 0 
   if (gbRegLCDC_DisplayOn) gb_Framebuffer_to_LCD(); // Display frame
-  else gbLCDCtx.fillRect(0,0,160,144);;
+  else gbLCDCtx.fillRect(0,0,160,144);
 }
 
 function gb_LY_LYC_compare() { // LY - LYC Compare
