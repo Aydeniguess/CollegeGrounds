@@ -1,3 +1,8 @@
+.nesCanvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* The navigation bar */
 
 .nav {
@@ -136,8 +141,3 @@ ruffle-embed {
     margin-right: auto;
 }
 
-.nesCanvas {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
