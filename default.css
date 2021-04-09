@@ -1,10 +1,5 @@
 /* The navigation bar */
-.nesCanvas {
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .navbar {
     background-color: #333;
     margin-left: calc(50% - 50vw);
@@ -15,7 +10,6 @@
 /* Links inside the navbar */
 
 .navbar a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -133,6 +127,12 @@ embed {
 }
 
 ruffle-embed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nesCanvas {
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
