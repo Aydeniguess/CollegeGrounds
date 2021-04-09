@@ -8,10 +8,10 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	overflow: hidden;
 }
 
@@ -63,12 +63,12 @@ body {
 	overflow: hidden;
 	position: absolute;
 	border: 2px solid darkgrey;
-	margin: 0px;
+	margin: 0;
 	background-color: #DDD;
 	cursor: default;
 	min-width: 20px;
 	min-height: 20px;
-	padding: 0px;
+	padding: 0;
 	z-index: 1000;
 }
 
@@ -135,7 +135,7 @@ body {
 	display: block;
 	outline: none;
 	appearance: none;
-	margin: 0px;
+	margin: 0;
 	padding: 2px;
 	border: none;
 	background-color: black;
@@ -214,7 +214,7 @@ ul {
 }
 
 #menuindicator h1, #menuindicator h2 {
-	margin: 0px;
+	margin: 0;
 }
 
 #menu li {
@@ -236,7 +236,7 @@ ul {
 #menu li input {
 	transform: scale(1.5);
 	cursor: pointer;
-	margin: 0px 12px 0px 0px;
+	margin: 0 12px 0 0;
 }
 
 #menu li a {
@@ -295,12 +295,12 @@ input[disabled] {
 #ffd::before {
 	opacity: 0;
 	width: 100%;
-	height: 0px;
+	height: 0;
 	background-color: #333333;
 	content: "Drop File Here";
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	z-index: 10;
 	display: flex;
 	align-items: center;
@@ -356,7 +356,7 @@ input[type="file"] {
 
 #ffd .source {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	width: 100%;
 }
 
@@ -364,7 +364,7 @@ input[type="file"] {
 	text-decoration: none;
 	color: black;
 	font-size: 10px;
-	margin: 0px 5px;
+	margin: 0 5px;
 	vertical-align: top;
 }
 
@@ -404,17 +404,17 @@ body.paused #resume {
 }
 
 #resume div h1 {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 #resume div h3 {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 #sidealertholder {
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	right: 0;
+	bottom: 0;
 	width: 200px;
 	display: flex;
 	flex-direction: column;
@@ -424,7 +424,7 @@ body.paused #resume {
 .sidealert {
 	background-color: rgb(49, 113, 152);
 	color: white;
-	margin: 0px 10px 10px 10px;
+	margin: 0 10px 10px;
 	padding: 5px 8px;
 	opacity: 0;
 	transition: opacity 0.1s ease-in;
