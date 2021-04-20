@@ -30,36 +30,6 @@ Sadly not all of the flash games will run properly right now hopefully that will
 - [yeetedmeme](https://github.com/yeetedmeme)
 yeet
 
-```txt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-monke
-```
+# Warning
+## You might get in trouble using this
+## Some of the links will most likely get blocked at your school
