@@ -10,10 +10,10 @@ Put 'em all together, and BOOM you got schoolgrounds
 
 ## Sites
 - [schoolgrounds.herokuapp.com](https://schoolgrounds.herokuapp.com/)
-- [schoolgroundshtml.tk](https://schoolgroundshtml.tk/)
 - [schoolgrounds.web.app](https://schoolgrounds.web.app/)
 - [schoolgrounds.firebaseapp.com](https://schoolgrounds.firebaseapp.com/)
 - [schoolground.ml](https://schoolground.ml/)
+- [schoolgroundshtml.tk](https://schoolgroundshtml.tk/)
 - [schoolground.tk](https://schoolground.tk/)
 
 # Info
